@@ -22,6 +22,8 @@ public class Main {
         System.out.println("Your insurane will cost $" + insuranceCost +"/year.");
     }
     public static double insuranceFormula(double age) {
+        //returns the insurance cost for a given age
         return (age * 5) + 300;
+        
     }
 }
